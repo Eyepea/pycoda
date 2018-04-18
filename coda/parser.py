@@ -30,8 +30,7 @@ import os
 import re
 import time
 
-from .statement import MovementRecord, MovementRecordType, InformationRecord, \
-    FreeCommunication, Statement
+from .statement import MovementRecord, MovementRecordType, InformationRecord, FreeCommunication, Statement
 
 
 class CodaParserException(Exception):
